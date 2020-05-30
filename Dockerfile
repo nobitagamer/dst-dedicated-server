@@ -19,10 +19,12 @@ ENV LANG en_US.utf8
 
 ENV DEPOT_DOWNLOADER_VERSION 2.3.5
 ENV DEPOT_APPID=343050
-ENV DEPOT_ID=343051
+
+# Don't Starve Together Dedicated Server Depot - Linux: https://steamdb.info/depot/343052/manifests/
+ENV DEPOT_ID=343052
 
 # Don't Starve Together version: 413172
-ENV DEPOT_MANIFEST=6669740038738489084
+ENV DEPOT_MANIFEST=4329406882048466670
 
 # Add Microsoft repository key and feed
 RUN apt-get install -y wget gnupg \
