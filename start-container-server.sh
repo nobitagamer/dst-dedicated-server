@@ -20,4 +20,6 @@ then
 fi
 
 cd $HOME/server_dst/bin
-./dontstarve_dedicated_server_nullrenderer -cluster DSTWhalesCluster -shard "$SHARD_NAME"
+chmod +x ./dontstarve_dedicated_server_nullrenderer
+
+./dontstarve_dedicated_server_nullrenderer -offline -cluster DSTWhalesCluster -shard "$SHARD_NAME"
